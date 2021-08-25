@@ -1,1 +1,3 @@
-personal-portfolio-template
+# Personal Portfolio Template
+
+A simple, customisable portfolio template.
