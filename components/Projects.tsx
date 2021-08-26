@@ -6,6 +6,7 @@ interface Project {
     title: string
     desc: string
     img: string
+    link: string
 }
 
 interface ProjectsProps {
@@ -18,7 +19,7 @@ export const Projects: React.FC<ProjectsProps> = ({projects}) => {
             <h1 className={styles.title}>Projects</h1>
             <section className={styles.projects}>
                 {projects.map((project, idx) => (
-                    <Project title={project.title} desc={project.desc} img={project.img} key={idx}/>
+                    <Project title={project.title} desc={project.desc} img={project.img} link={project.link} key={idx}/>
                 ))}
             </section>
         </div>
