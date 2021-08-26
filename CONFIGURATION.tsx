@@ -10,7 +10,11 @@ const userConfig = {
         { title: 'Project 1', desc: 'a great project', link: '', img: 'https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60' },
         { title: 'Project 1', desc: 'a great project', link: '', img: 'https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60' },
         { title: 'Project 1', desc: 'a great project', link: '', img: 'https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60' },
-    ]
+    ],
+    footerTitle: 'Contact',
+    footerDesc: 'Nulla magna pariatur quis qui exercitation.',
+    // Email is optional
+    email: 'someemail@email.com'
 }
 
 export default userConfig
