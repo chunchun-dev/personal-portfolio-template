@@ -1,6 +1,7 @@
 // Customise this file to change data on the page
 
 import { createContext } from "react"
+import userConfig from './CONFIGURATION'
 
 type Link = string
 
@@ -14,19 +15,6 @@ export interface UserDataShape {
     name: string,
     about: string,
     projects: Project[]
-}
-
-// Fill out your information here
-export const UserConfig:UserDataShape = {
-    name: 'Default',
-    about: '',
-    projects: [
-        {
-            name: 'project',
-            desc: 'lorem',
-            sourceCode: ''
-        }
-    ]
 }
 
 const UserContext:any = createContext(undefined)
