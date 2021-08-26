@@ -1,0 +1,42 @@
+.hero {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.hero > h3 {
+    font-weight: 700;
+}
+
+.hero > h1 {
+    width: 40%;
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hero > p {
+    width: 40%;
+}
+
+.hero > a {
+    margin-top: 2rem;
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1015px) {
+    .hero > h1 {
+        width: 90%;
+    }
+
+    .hero > p {
+        width: 90%;
+    }
+}

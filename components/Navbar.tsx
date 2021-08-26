@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
-import styles from '../../styles/Navbar.module.css'
-import UserContext from '../../userConfig';
+import styles from '../styles/Navbar.module.css'
+import UserContext from '../userConfig';
 
 
 interface NavbarProps {
